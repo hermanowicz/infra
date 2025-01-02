@@ -1,0 +1,8 @@
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform/
+.venv
+*.bin
+*.zip
+.idea
