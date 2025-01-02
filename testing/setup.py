@@ -18,6 +18,11 @@ apt.packages(
     latest=True
 )
 
+server.shell(
+    name="printing to tty hello,world",
+    commands=["echo 'hello, world'"]
+)
+
 server.service(
     name="enable fail2ban",
     service="fail2ban",
